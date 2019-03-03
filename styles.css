@@ -1,0 +1,82 @@
+/* Sometimes browsers (like Chrome) assume some default padding and margin. This is annoying for web designers since different browsers (like Safari) assume different defaults, making pages look inconsistent. This resets everything back to normal. */
+
+/*ieurbkjwbelqbFjk*/
+body {
+	margin: 0;
+	padding: 0;
+	color: #002F6C;
+	background-image: url("uh.jpeg");
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Karla', Serif;
+	font-transform: uppercase;
+	font-size: 20px;
+
+}
+
+div.form{
+	margin: auto;
+	width: 40%;
+	border: none;
+	padding: 10px;
+	font-transform: uppercase;
+
+}
+
+form{
+	width: 500px;
+}
+input{
+	background-color: #002F6C;
+	color: white;
+	margin: 15px 0;
+
+}
+input[type = text]{
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: none;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;	
+  transition: width 0.4s ease-in-out;
+
+
+}
+
+input[type=text]:focus{
+	width:100%;
+}
+textarea{
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+
+input[type=submit] {
+  background-color: #002F6C;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+}
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 70px;
+	font-family: 'Ubuntu', sans-serif;
+
+
+}
