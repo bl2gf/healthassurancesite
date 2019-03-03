@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" href="styles.css" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+<body>
+	<!-- this is how you comment -->
+<h1>
+		Patient Diagnosis
+	</h1>
+<div class="form">
+	<form action="okay.php" method="post">
+	  First name:<br>
+	  <input type="text" name="firstname"><br>
+	  	Last name:<br>
+	  <input type="text" name="lastname"><br>
+
+	  Age:<br>
+	  <input type="text" name="age"><br>
+
+	  <input type="radio" name="gender" value="male" checked> Male<br>
+	  <input type="radio" name="gender" value="female"> Female<br>
+	  <input type="radio" name="gender" value="other"> Other<br>
+
+	  Heart rate:<br>
+	  <input type="text" name="heartrate"><br>
+
+	  Respiratory rate:<br>
+	  <input type="text" name="respiratoryrate"><br>
+
+	  Blood pressure: <br><input type="text" name="bloodpressure"><br>
+
+	  Blood sugar level: <br><input type="text" name="bloodsugar"><br>
+
+	  Lung sounds: <br><input type="text" name="lungsounds"><br>
+
+	  Diagnosis: <br> <textarea> </textarea>
+
+	  Health Assurance: <br><input type="file" name="audio" accept="audio/*"><br>
+
+	  <input type="submit" value = "Submit"><br>
+
+	</form>
+</div>
+</body>
+</html>
